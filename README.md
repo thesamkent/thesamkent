@@ -11,6 +11,12 @@ Building low-level software, cryptographic algorithms, and memory architectures 
 <br>
 
 <a href="https://github.com/thesamkent">
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="Samkent 3D Contribution City Skyline" width="100%" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/thesamkent">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=thesamkent&theme=dark&hide_border=true" height="165" />
 </a>
 
