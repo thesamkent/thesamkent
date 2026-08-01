@@ -18,8 +18,6 @@ Building low-level software, cryptographic algorithms, and memory architectures 
 
 <a href="https://github.com/thesamkent">
   <img src="https://img.shields.io/badge/VIEWS-23.8k-38bdf8?style=for-the-badge" height="35" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/thesamkent?style=for-the-badge&color=a855f7&label=FOLLOWERS" height="35" />
 </a>
 
 </div>
