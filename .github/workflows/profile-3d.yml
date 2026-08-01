@@ -14,17 +14,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: thesamkent
-      - name: Commit & Push changes
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add -A .
-          git commit -m "generated 3d profile city" || exit 0
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat: update 3d profile contribution city"
