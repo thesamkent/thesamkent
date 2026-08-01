@@ -1,0 +1,33 @@
+name: Live Card Updater
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Fetch Live Contributions & Update SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_card.py
+
+      - name: Auto Commit Updated Card
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chrono: live update card.svg contributions count"
