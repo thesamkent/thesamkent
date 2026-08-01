@@ -17,7 +17,7 @@ Building low-level software, cryptographic algorithms, and memory architectures 
 <br><br>
 
 <a href="https://github.com/thesamkent">
-  <img src="https://komarev.com/ghpvc/?username=thesamkent&color=38bdf8&style=for-the-badge&label=VIEWS" height="35" />
+  <img src="https://img.shields.io/badge/VIEWS-23.8k-38bdf8?style=for-the-badge" height="35" />
   &nbsp;
   <img src="https://img.shields.io/github/followers/thesamkent?style=for-the-badge&color=a855f7&label=FOLLOWERS" height="35" />
 </a>
