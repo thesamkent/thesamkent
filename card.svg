@@ -24,9 +24,9 @@
     <!-- Vertical Divider 2 -->
     <line x1="430" y1="115" x2="430" y2="165" stroke="#171d2a" stroke-width="1"/>
 
-    <!-- Metric 3: Contributions -->
+    <!-- Metric 3: Real Contributions -->
     <text x="454" y="128" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" letter-spacing="1">CONTRIBUTIONS</text>
-    <text x="454" y="158" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="bold" fill="#a855f7">29,240+</text>
+    <text x="454" y="158" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="bold" fill="#a855f7">1,391</text>
 
     <!-- Horizontal Divider Bottom -->
     <line x1="36" y1="188" x2="604" y2="188" stroke="#171d2a" stroke-width="1"/>
